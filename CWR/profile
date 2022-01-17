@@ -1,1 +1,1 @@
-web gunicorn CWR.wsgi:apllication --log-file -
+web: gunicorn CWR.wsgi
