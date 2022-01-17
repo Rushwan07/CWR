@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'CWR.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dfhje6ifdfe9g6',
+        'USER': 'eoeidinvhdeifc',
+        'PASSWORD': 'b67663aa211396ea85af0303f40de06fa8c354192971cfdc732d1b2be7bcbd73',
+        'HOST': 'ec2-54-173-2-216.compute-1.amazonaws.com',
+        'PORT': 5432,
     }
 }
 
